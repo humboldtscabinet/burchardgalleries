@@ -4,11 +4,11 @@ import { auctionHighlights, externalLinks } from "@/data/content";
 
 export default function AuctionsPage() {
   return (
-    <main className="mx-auto min-h-screen max-w-5xl px-6 py-16 text-slate-100">
+    <main className="mx-auto min-h-screen max-w-5xl px-6 py-16 text-black bg-white">
       <div className="space-y-3">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">Auctions</p>
-        <h1 className="text-3xl font-semibold">Upcoming sales & catalog access</h1>
-        <p className="max-w-3xl text-base text-slate-200/80">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-600">Auctions</p>
+        <h1 className="text-3xl font-semibold text-black">Upcoming sales & catalog access</h1>
+        <p className="max-w-3xl text-base text-gray-700">
           Review dates, preview catalogues, and register to bid in-gallery, by phone, absentee, or online.
         </p>
       </div>
@@ -17,17 +17,17 @@ export default function AuctionsPage() {
         {auctionHighlights.map((auction) => (
           <div
             key={auction.title}
-            className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 shadow-xl shadow-indigo-500/10"
+            className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/0" />
             <div className="relative space-y-4">
-              <div className="inline-flex rounded-full border border-emerald-200/30 bg-emerald-200/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-100">
+              <div className="inline-flex rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-900">
                 {auction.tag}
               </div>
-              <h2 className="text-xl font-semibold text-white">{auction.title}</h2>
-              <p className="text-sm leading-relaxed text-slate-200/90">{auction.description}</p>
+              <h2 className="text-xl font-semibold text-black">{auction.title}</h2>
+              <p className="text-sm leading-relaxed text-gray-700">{auction.description}</p>
               {auction.image ? (
-                <div className="overflow-hidden rounded-xl border border-white/10 bg-slate-900/60">
+                <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
                   <Image
                     src={auction.image}
                     alt={auction.title}
@@ -39,7 +39,7 @@ export default function AuctionsPage() {
               ) : null}
               <Link
                 href={auction.href}
-                className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-200 underline decoration-emerald-200/60 decoration-2 underline-offset-4"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-black hover:underline underline decoration-amber-500 decoration-2 underline-offset-4"
               >
                 {auction.action} →
               </Link>
