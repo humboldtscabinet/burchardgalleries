@@ -17,10 +17,10 @@ export default function Home() {
       <main className="mx-auto max-w-7xl space-y-20 px-4 pb-20 pt-16 sm:px-6">
         <section className="space-y-6">
           <div className="max-w-3xl space-y-4">
-            <h1 className="text-4xl font-semibold text-slate-900 sm:text-5xl">
+            <h1 className="text-4xl font-semibold text-black sm:text-5xl">
               Your search for estate auctions and fine art sales starts here
             </h1>
-            <p className="text-lg text-slate-600">
+            <p className="text-lg text-gray-800">
               Burchard Galleries handles consignments with confidentiality and professional care. Browse upcoming auctions, connect with our team, or list your collection.
             </p>
           </div>
@@ -66,17 +66,28 @@ export default function Home() {
 
         <section id="departments" className="space-y-6">
           <div>
-            <h2 className="text-2xl font-semibold text-slate-900 sm:text-3xl">Browse by category</h2>
+            <h2 className="text-2xl font-semibold text-black sm:text-3xl">Browse by category</h2>
           </div>
-          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {departments.map((dept) => (
               <a
                 key={dept.name}
                 href="#"
-                className="rounded-lg border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:border-slate-300 hover:shadow-md"
+                className="group relative overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:shadow-md"
               >
-                <h3 className="text-xs font-semibold text-slate-900 sm:text-sm">{dept.name}</h3>
-                <p className="mt-1 hidden text-xs text-slate-500 sm:block">Browse</p>
+                {dept.image ? (
+                  <Image
+                    src={dept.image}
+                    alt={dept.name}
+                    width={300}
+                    height={200}
+                    className="h-32 w-full object-cover"
+                  />
+                ) : null}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition group-hover:opacity-100" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-2 text-center">
+                  <h3 className="text-xs font-semibold text-black sm:text-sm">{dept.name}</h3>
+                </div>
               </a>
             ))}
           </div>

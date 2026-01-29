@@ -43,18 +43,18 @@ export const auctionHighlights = [
 ];
 
 export const departments = [
-  { name: "Watches & Clocks", description: "Fine timepieces, vintage watches, and precision instruments." },
-  { name: "Furniture & Design", description: "Antique and modern furniture, lighting, and decorative pieces." },
-  { name: "Fine Art & Paintings", description: "American, European, and contemporary paintings and sculptures." },
-  { name: "Jewelry & Gems", description: "Estate diamonds, signed pieces, and gemological specimens." },
-  { name: "Porcelain & Pottery", description: "Fine china, ceramics, and decorative earthenware." },
-  { name: "Fashion & Vintage", description: "Designer clothing, accessories, and vintage fashion collectibles." },
-  { name: "Books & Manuscripts", description: "Rare books, autographed editions, and historical documents." },
-  { name: "Coins & Banknotes", description: "Numismatic collections, rare coins, and currency." },
-  { name: "Asian Art", description: "Chinese ceramics, bronzes, screens, and works of art." },
-  { name: "Decorative Arts", description: "Silver, glass, objets d'art, and period furnishings." },
-  { name: "Music & Instruments", description: "Vintage instruments, audio equipment, and vinyl records." },
-  { name: "Collectibles & Toys", description: "Toy collections, memorabilia, and specialized collections." },
+  { name: "Watches & Clocks", description: "Fine timepieces, vintage watches, and precision instruments.", image: "/placeholders/watches.svg" },
+  { name: "Furniture & Design", description: "Antique and modern furniture, lighting, and decorative pieces.", image: "/placeholders/furniture.svg" },
+  { name: "Fine Art & Paintings", description: "American, European, and contemporary paintings and sculptures.", image: "/placeholders/art-lot.svg" },
+  { name: "Jewelry & Gems", description: "Estate diamonds, signed pieces, and gemological specimens.", image: "/placeholders/jewelry.svg" },
+  { name: "Porcelain & Pottery", description: "Fine china, ceramics, and decorative earthenware.", image: "/placeholders/porcelain.svg" },
+  { name: "Fashion & Vintage", description: "Designer clothing, accessories, and vintage fashion collectibles.", image: "/placeholders/fashion.svg" },
+  { name: "Books & Manuscripts", description: "Rare books, autographed editions, and historical documents.", image: "/placeholders/books.svg" },
+  { name: "Coins & Banknotes", description: "Numismatic collections, rare coins, and currency.", image: "/placeholders/jewelry.svg" },
+  { name: "Asian Art", description: "Chinese ceramics, bronzes, screens, and works of art.", image: "/placeholders/porcelain.svg" },
+  { name: "Decorative Arts", description: "Silver, glass, objets d'art, and period furnishings.", image: "/placeholders/furniture.svg" },
+  { name: "Music & Instruments", description: "Vintage instruments, audio equipment, and vinyl records.", image: "/placeholders/auction-room.svg" },
+  { name: "Collectibles & Toys", description: "Toy collections, memorabilia, and specialized collections.", image: "/placeholders/art-lot.svg" },
 ];
 
 export const services = [
