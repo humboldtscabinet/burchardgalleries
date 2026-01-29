@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0b1224" offset="0"/>
+      <stop stop-color="#0f172a" offset="1"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#22d3ee" offset="0"/>
+      <stop stop-color="#a855f7" offset="0.5"/>
+      <stop stop-color="#22c55e" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <ellipse cx="700" cy="470" rx="360" ry="260" fill="#111827" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="700" cy="470" r="180" fill="#0b1224" stroke="#22d3ee" stroke-width="10" opacity="0.65"/>
+  <path d="M540 470 C540 330, 860 330, 860 470" stroke="#a855f7" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <circle cx="540" cy="470" r="26" fill="#22d3ee" opacity="0.9"/>
+  <circle cx="860" cy="470" r="26" fill="#22c55e" opacity="0.9"/>
+  <circle cx="700" cy="280" r="40" fill="#f8fafc" opacity="0.9"/>
+  <circle cx="700" cy="280" r="18" fill="#22d3ee" opacity="0.8"/>
+  <rect x="540" y="600" width="320" height="60" rx="24" fill="#22d3ee" opacity="0.2"/>
+  <text x="570" y="638" fill="#cbd5e1" font-family="'Inter', 'Segoe UI', system-ui" font-size="22" font-weight="600" opacity="0.9">Jewelry & Watches Placeholder</text>
+</svg>

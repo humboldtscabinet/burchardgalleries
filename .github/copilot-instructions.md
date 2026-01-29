@@ -1,0 +1,13 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+- [x] Clarify Project Requirements (Next.js redesign for Burchard Galleries with modern auction sitemap).
+- [x] Scaffold the Project (create-next-app with TypeScript, Tailwind, ESLint, src/app).
+- [x] Customize the Project (new layout, data-driven sections, auction and consignment resources).
+- [x] Install Required Extensions (none required).
+- [x] Compile the Project (npm run lint).
+- [x] Create and Run Task (not needed; use npm scripts directly).
+- [x] Launch the Project (run npm run dev on request).
+- [x] Ensure Documentation is Complete (README refreshed; instructions cleaned).
+
+- Work through each checklist item systematically.
+- Keep communication concise and focused.
+- Follow development best practices.
