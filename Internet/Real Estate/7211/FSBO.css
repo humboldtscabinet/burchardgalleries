@@ -1,0 +1,471 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	width: 768px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	text-align:left;
+	border: 1px solid #000000;
+}
+#banner {
+	height: 75px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: oblique;
+	font-weight: bold;
+	color: #0000FF;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 1px;
+}
+.demo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-right: 0px;
+	text-align: center;
+	line-height: 13px;
+}
+#content {
+	font-size: 100em;
+	color: #000000;
+	text-align: justify;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 0px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#content1	 {
+	font-size: 100em;
+	color: #000000;
+	text-align: justify;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 0px 0px 0px 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #0000CC;
+	text-align: center;
+	font-style: oblique;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #000000;
+	text-align: justify;
+	margin-top: 1px;
+	padding: 1px;
+	line-height: normal;
+	margin-bottom: 7px;
+}
+th {
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}.totalpoints {
+	text-decoration: underline overline;
+}
+.paragraphjustify {
+	text-align: justify;
+}
+.underlineH4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+.stylecenter20 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	color: #009900;
+}
+#centertables1 {
+	position: absolute;
+	visibility: inherit;
+	height: auto;
+	width: auto;
+	left: 60px;
+	top: 190px;
+}
+.smallpt8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+}
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.p-red-bold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+a.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #0000FF;
+}
+.BoldRedUnderline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FF0000;
+}
+a.24pxred {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: underline;
+}
+td.24pxred {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: underline;
+}
+/*
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #FF0000;
+}
+*/
+.BoldGreenUnderline {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #00FF00;
+}
+.tdHeight {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	line-height: 25px;
+}
+.14pxArialBoldUnder {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	color: #000000;
+}
+.18pxArialCenter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+.12pxArialCenter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	letter-spacing: normal;
+	height: 5px;
+	width: auto;
+	top: auto;
+	position: relative;
+	line-height: normal;
+	font-style: normal;
+}
+
+
+#nav {
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+}
+#nav ul {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#nav ul li {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#nav ul li a {
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #3333CC;
+	text-decoration: none;
+	padding: 0 14px;
+	border-right: 1px solid #000000;
+	text-align: center;
+	width:9em;
+}
+#nav ul li a:hover, #nav ul li a:focus {
+	background-color: #990000;
+}
+#nav ul li a:focus {
+	background-color: #990000;
+}
+
+#nav1 {
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+#nav1 ul {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#nav1 ul li {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#nav1 ul li a {
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFF00;
+	text-decoration: none;
+	padding: 0 8px 0 8px;
+	border-right: 1px solid #000000;
+	text-align: center;
+	width:9em;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+}
+#nav1 ul li a:hover, #nav ul li a:focus {
+	background-color: #990000;
+}
+#nav1 ul li a:focus {
+	background-color: #990000;
+}
+
+
+#nav2 {
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+#nav2 ul {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#nav2 ul li {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#nav2 ul li a {
+	font-size:12px;
+	color: #000000;
+	background-color: #FF0000;
+	text-decoration: none;
+	padding: 0 8px 0 8px;
+	border-right: 1px solid #000000;
+	text-align: center;
+	width:9em;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+}
+#nav2 ul li a:hover, #nav ul li a:focus {
+	background-color: #990000;
+}
+#nav2 ul li a:focus {
+	background-color: #990000;
+}
+
+
+
+
+
+
+
+.Red14Bold {
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: underline;
+}
+#pic1 {
+	background-image:  url(../../BP/FSBO/Source/BingoAntiguaScene.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	clear: none;
+	float: none;
+	height: 242px;
+}
+
+.aSite {
+	color: #edfae6;
+}
+.redAstrick {
+	color: #FF0000;
+}
+h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	text-decoration: underline;
+	margin: 0px;
+	padding: 10px 0px;
+}
+.linktop {
+	font-size: 80%;
+}
+.14pxArialRed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FF3300;
+	font-weight: bolder;
+}
+.faqLists {
+	font-size: 80%;
+	color: #000000;
+}
+.faqLink {
+	font-size: 100%;
+	color: #0000FF;
+	margin-top: 50px;
+	line-height: 20px;
+}
+.question {
+	font-size: 80%;
+	color: #000000;
+	margin-top: 50px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.topquestion {
+
+	font-size: 80%;
+	color: #000000;
+	margin-top: 50px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.help {
+	margin: 10px;
+}
+.medium {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.boldselect {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+#photo-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #0000FF;
+}
+.td-required {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFF00;
+}
+.14ptUnderlineBold {
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #000000;
+}
+.ulbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.ul {
+	font-size: 14px;
+	text-decoration: underline;
+}
+.stylecenter16 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+.astylewhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
