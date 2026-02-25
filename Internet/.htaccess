@@ -1,0 +1,13 @@
+# Canonical home
+Redirect 301 /index.htm /index12.11.16.htm
+Redirect 301 /index2.htm /index12.11.16.htm
+Redirect 301 /index10.htm /index12.11.16.htm
+
+# Consolidate calendars and archives
+Redirect 301 /fcalend.htm /archive/index.html
+Redirect 301 /fcalendMay.htm /archive/index.html
+Redirect 301 /fcatalog.htm /archive/index.html
+Redirect 301 /%21antique%20Auction%20Calendar%20-%20Burchard%20Galleries.html /archive/index.html
+
+# Normalize duplicate content
+Redirect 301 /forms/web/ftopcash2.htm /ftopcash2.htm
