@@ -1,39 +1,24 @@
-## Burchard Galleries — Modern Auction Website
+## Burchard Galleries — Legacy Static Site
 
-Next.js 16 (App Router) site for Burchard Galleries, featuring a modern, clean layout for auctions, departments, services, bidder resources, and consignment.
+This repository now contains only the legacy static website preserved under `Internet/`.
 
-### Stack
-- Next.js 16 (App Router, TypeScript)
-- Tailwind CSS v4 (configless)
-- ESLint (core-web-vitals)
+### Structure
+- Legacy HTML/CSS/JS: `Internet/`
+- Dockerfile: serves the legacy site via nginx.
+- railway.toml: tells Railway to build from the Dockerfile.
 
-### Run locally
+### Run locally (Docker)
 ```bash
-npm install
-npm run dev
-# visit http://localhost:3000
+docker build -t burchardgalleries-legacy .
+docker run --rm -p 8080:80 burchardgalleries-legacy
+# open http://localhost:8080
 ```
 
-### Lint & production build
-```bash
-npm run lint
-npm run build
-```
+### Deploy to Railway
+1) Push this repo to GitHub (Dockerfile present).
+2) In Railway, create a new service from the repo; it will build with the Dockerfile.
+3) Healthcheck is `/` by default (set in `railway.toml`). No extra env vars needed.
 
-### Content & structure
-- Primary page: `src/app/page.tsx`
-- Shared data (navigation, auctions, departments, services, contact): `src/data/content.ts`
-- Global styles: `src/app/globals.css`
-
-### Deployment (Railway)
-1. Ensure the project is committed to GitHub.
-2. In Railway, create a new service from the GitHub repo.
-3. Set `NODE_ENV=production` and `PORT=3000` (Railway usually sets the port automatically; read the `PORT` env variable in custom configs if added later).
-4. Build command: `npm run build`
-5. Start command: `npm start`
-6. Enable a persistent volume only if you later add uploads or caching; not required for this static Next.js build.
-
-### Reference links
-- Legacy auction calendar/catalogues: https://www.burchardgalleries.com/fcalend.htm
-- Mailing list signup: http://www.burchardgalleries.com/femail.htm
-- Auction archives: http://www.burchardgalleries.com/fcatalog.htm
+### Notes
+- All modern Next.js code has been removed; this is the original static site only.
+- If you need to change the document root, adjust the `COPY Internet/ /usr/share/nginx/html/` line in `Dockerfile`.
