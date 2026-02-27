@@ -6,6 +6,14 @@ server {
   root   /usr/share/nginx/html;
   index  index.htm index.html;
 
+  # Rewrite absolute legacy links to relative so the clone stays self-contained
+  sub_filter_once off;
+  sub_filter_types text/html text/css application/javascript;
+  sub_filter 'http://www.burchardgalleries.com' '';
+  sub_filter 'https://www.burchardgalleries.com' '';
+  sub_filter 'http://burchardgalleries.com' '';
+  sub_filter 'https://burchardgalleries.com' '';
+
   location / {
     try_files $uri $uri/ =404;
   }
